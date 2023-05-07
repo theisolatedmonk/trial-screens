@@ -11,12 +11,17 @@ import CompanyProfileHeading from "@/components/CompanyProfileHeading";
 import { BtnCompact } from "@/components/BtnCompact";
 import { MaskGroupImg } from "@/components/MaskGroupImg";
 import { MsgShare } from "@/components/MsgShare";
+import {MobileMenu} from "@/AndroidMenu/MobileMenu";
 
 // import { Button } from "antd";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4 p-2 font-Figtree ">
+    <main className="flex min-h-screen flex-col items-center gap-4 p-2 font-Figtree min-h-screen ">
+      <div>
+      <MobileMenu/>
+      </div>
+      <div className="hidden">
       <Navbar />
       <hr className="w-full" />
       <HearderTxt />
@@ -29,6 +34,8 @@ export default function Home() {
       <CompanyProfileHeading />
       <MaskGroupImg/>
       <MsgShare/>
+      </div>
+      
 
      
     
