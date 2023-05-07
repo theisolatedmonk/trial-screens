@@ -11,15 +11,15 @@ import { BtnAnt } from './BtnCompactAntdesign';
 
 export  function MaskGroupImg() {
   return (
-    <div className="  relative bg-black 
-     w-full h-[238px] border-2 border-red-300  flex justify-center flex-col ">
+    <div className="  relative 
+     w-full h-[238px]   flex justify-center flex-col ">
     <Image src={maskGroup} alt="" className="absolute   
     h-full w-full" />
-    <div className="flex flex-col absolute left-16 top-6 gap-14  border-2 border-red-300">
+    <div className="flex flex-col absolute justify-center items-center top-6 gap-14  w-full">
       {/* <BtnCompact /> */}
       <BtnAnt/>
-      <div className="flex flex-col justify-center items-center p-2 bg-slate-200">
-        <Image src={weworkLogo} alt=""  className='h-[43.02px] w-44'/>
+      <div className="flex flex-col justify-center items-center  bg-slate-200">
+        <Image src={weworkLogo} alt=""  className=' '/>
         <p className='font-bold text-sm'>For all the ways you work, we're here</p>
       </div>
     </div>

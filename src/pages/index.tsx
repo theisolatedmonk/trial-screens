@@ -16,7 +16,7 @@ import { MsgShare } from "@/components/MsgShare";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center gap-4 p-2 font-Figtree">
+    <main className="flex min-h-screen flex-col items-center gap-4 p-2 font-Figtree ">
       <Navbar />
       <hr className="w-full" />
       <HearderTxt />
@@ -28,6 +28,7 @@ export default function Home() {
       <hr className="w-full" />
       <CompanyProfileHeading />
       <MaskGroupImg/>
+      <MsgShare/>
 
      
     
