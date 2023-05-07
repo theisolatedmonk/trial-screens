@@ -1,23 +1,35 @@
 // "use client";
 import React from "react";
-import { MenuOutlined, RightOutlined } from "@ant-design/icons";
+import RightAngletag from "./SVG/RightAngletag";
+import Image from "next/image";
+import ellips from "@/images/Ellipse 704.png";
+import {
+  DeleteSVG,
+  HelpSVG,
+  InboxSVG,
+  NotificationsSvg,
+  SearchSVG,
+} from "@/components/AndroidMenu/MobileMenuSVG";
+import { MenuBtn } from "./SVG/MenuBtn";
 
 export function Navbar() {
   return (
     <div className="flex justify-between items-center  w-full ">
       <div className="flex gap-2 items-center">
-        <p className="h-8 w-8 bg-green-700 rounded-full ring-4 ring-black"></p>
-        <RightOutlined />
+        <p className="h-8 w-8 p-2 bg-[#00B686] rounded-full ring-8 ring-[#04433B] "></p>
+        <RightAngletag />
       </div>
 
-      <div className="flex gap-2 items-center">
-        <div className="flex gap-2 items-center hidden">
-          <p>1</p>
-          <p>2</p>
-          <p>3</p>
-        </div>
-        <div className="hidden">image</div>
-        <MenuOutlined />
+      <div className=" hidden gap-2 items-center sm:flex">
+        <SearchSVG />
+        <InboxSVG />
+        <NotificationsSvg />
+        <HelpSVG />
+        <Image src={ellips} alt={""} />
+      </div>
+      <div className="sm:hidden">
+        {" "}
+        <MenuBtn />
       </div>
     </div>
   );

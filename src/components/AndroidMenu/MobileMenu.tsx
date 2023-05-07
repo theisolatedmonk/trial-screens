@@ -12,7 +12,7 @@ import {
 
 export function MobileMenu() {
   return (
-    <div className="flex flex-col w-full    font-Figtree p-2">
+    <div className="flex flex-col w-full    font-Figtree p-2 sm:flex-row">
       <section
         className="flex justify-center w-full "
         style={{

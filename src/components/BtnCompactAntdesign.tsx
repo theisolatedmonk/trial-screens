@@ -1,15 +1,8 @@
 import React from "react";
 
-import {
-  DownloadOutlined,
-  HeartOutlined,
-  LikeOutlined,
-  CommentOutlined,
-  StarOutlined,
-  ShareAltOutlined
-} from "@ant-design/icons";
-import { Button, Space, Tooltip } from "antd";
-import { DownloadSvg, NumSvg, PdfSvg, ShareSvg, ZoomInSvg, ZoomOutSvg } from "@/SVG/CompactSvg";
+
+import { Button,  Tooltip } from "antd";
+import { DownloadSvg, NumSvg, PdfSvg, ShareSvg, ZoomInSvg, ZoomOutSvg } from "@/components/SVG/CompactSvg";
 
 export const BtnAnt: React.FC = () => (
   <div className="flex gap-4 border-1 rounded-md items-center px-1 text-[#D3D7D7] bg-blur-lg bg-opacity-70 bg-white h-9">
@@ -40,10 +33,3 @@ export const BtnAnt: React.FC = () => (
     
   </div>
 );
-
-// /DownloadSvg,
-//   PdfSvg,
-//   ShareSvg,
-//   ZoomOutSvg,
-//   ZoomInSvg,
-//   NumSvg,
