@@ -15,8 +15,8 @@ import { MenuBtn } from "./SVG/MenuBtn";
 export function Navbar() {
   return (
     <div className="flex justify-between items-center  w-full ">
-      <div className="flex gap-2 items-center">
-        <p className="h-8 w-8 p-2 bg-[#00B686] rounded-full ring-8 ring-[#04433B] "></p>
+      <div className="flex pl-2 gap-2 items-center">
+        <p className="h-6 w-6 bg-[#00B686] rounded-full ring-8 ring-[#04433B] "></p>
         <RightAngletag />
       </div>
 
