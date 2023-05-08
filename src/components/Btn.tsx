@@ -10,12 +10,12 @@ const headerLinks = [
 ];
 
 export const Btn: React.FC = () => (
-  <div className=" flex  text-[#BDC3C2] font-bold text-xl justify-center sm:justify-between">
+  <div className=" flex text-[#BDC3C2]  justify-center sm:justify-between">
     <Space size={[8, 16]}>
     {headerLinks.map(({ link, active }) => (
       //   <Button className={`rounded-b-none`}>{link}</Button>
       <Button
-        className={`rounded-b-none font-bold text-sm justify-center sm:justify-between ${
+        className={`rounded-b-none font-bold text-sm sm:text-lg ${
           active ? "text-[#00B686]" : "text-[#BDC3C2] "
         }`}
       >
@@ -23,6 +23,6 @@ export const Btn: React.FC = () => (
       </Button>
     ))}
   </Space>
-  <Button className="hidden text-[#BDC3C2] font-bold text-sm justify-center sm:justify-between  sm:flex">Internal Actions</Button>
+  <Button className="hidden text-[#BDC3C2] text-lg font-bold sm:flex text-center">Internal Actions</Button>
   </div>
 );

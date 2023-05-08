@@ -4,7 +4,7 @@ import React from 'react'
 export  function SubHeading() {
   return (
     <div className='flex justify-between w-full'>
-        <h1 className="text-[#233735] font-bold text-[16px]">Project Scope Recap</h1>
+        <h1 className="text-[#233735] font-bold text-[16px] sm:text-2xl">Project Scope Recap</h1>
 
      <div className='flex flex-col'>
      <div className='flex text-[10px] justify-between   '>
