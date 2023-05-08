@@ -16,14 +16,14 @@ export const Btn: React.FC = () => (
         <Button
           key={i}
           className={`rounded-b-none font-bold text-sm sm:text-lg ${
-            active ? "text-[#00B686]" : "text-[#BDC3C2] "
+            active ? "text-[#00B686]" : "text-[#BDC3C2]"
           }`}
         >
           {link}
         </Button>
       ))}
     </Space>
-    <Button className="hidden text-[#BDC3C2] text-lg font-bold sm:flex text-center">
+    <Button className="hidden text-[#BDC3C2] text-lg font-bold sm:flex text-center rounded-b-none">
       Internal Actions
     </Button>
   </div>

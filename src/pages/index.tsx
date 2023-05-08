@@ -19,14 +19,14 @@ export default function Home() {
       
       <div className="flex flex-col gap-3" >
         <Navbar />
-        <hr className="w-full " />
+        <hr className="w-full" />
         <HearderTxt />
         <Image src={bannerImg} alt="" />
         
         <SubHeading />
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
         <Btn />
-        <hr className="w-full " />
+        <hr className="w-full mt-[-1px]" />
         </div>
       <div className="flex gap-2 justify-start  w-full">
       <p className="sm:flex hidden h-[50%] 

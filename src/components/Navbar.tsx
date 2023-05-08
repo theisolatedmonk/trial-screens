@@ -42,37 +42,7 @@ export function Navbar() {
   );
 }
 
-// function MobileMenu({
-//   menu,
-//   setMenu,
-// }: {
-//   menu: boolean;
-//   setMenu: Dispatch<SetStateAction<boolean>>;
-// }) {
-//   return (
-//     <div
-//       className={`w-72 text-black h-screen bg-black   gap- z-30 fixed top-0 bg-opacity-70 text-xs font-bold  ${
-//         menu ? "flex" : "hidden"
-//       } `}
-//     >
-//       <div className="w-[190px] bg-white p-4 flex flex-col gap-8">
-//         <Image
-//           className="h-3 w-3"
-//           src={close}
-//           alt=""
-//           onClick={() => setMenu(false)}
-//         />
-//         <ul className="gap-4 flex flex-col ">
-//           <li>Collection</li>
-//           <li>'Men'</li>
-//           <li>Women</li>
-//           <li>About</li>
-//           <li>Contact</li>
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// }
+
 
 export function MobileMenu({
   menu,
