@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <main className="flex  flex-col items-center  p-2 font-Figtree min-h- bg-[#F2FBF9]
      ">
-      <div className="hidden" ><MobileMenu /></div>
+      {/* <div className="hidden" ><MobileMenu /></div> */}
       <div className="flex flex-col gap-3" >
         <Navbar />
         <hr className="w-full " />

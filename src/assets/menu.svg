@@ -1,8 +1,4 @@
-import React from "react";
-
-export function MenuBtn(props: any) {
-  return (
-    <svg
+ <svg
       width="30"
       height="30"
       viewBox="0 0 30 30"
@@ -14,5 +10,3 @@ export function MenuBtn(props: any) {
         fill="#657372"
       />
     </svg>
-  );
-}

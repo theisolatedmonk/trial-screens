@@ -72,9 +72,10 @@ export function HelpSVG() {
   );
 }
 
-export function DeleteSVG() {
+export function DeleteSVG(props: any) {
   return (
     <svg
+      {...props}
       width="30"
       height="30"
       viewBox="0 0 30 30"
