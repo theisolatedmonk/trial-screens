@@ -11,7 +11,7 @@ import {
   InboxSVG,
   NotificationsSvg,
   SearchSVG,
-} from "@/components/AndroidMenu/MobileMenuSVG";
+} from "@/components/SVG/MobileMenuSVG";
 import { MenuBtn } from "./SVG/MenuBtn";
 
 export function Navbar() {
