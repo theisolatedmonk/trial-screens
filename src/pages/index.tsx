@@ -33,13 +33,12 @@ export default function Home() {
         pt-3 overflow-hiddenow-">
         <OverViewTable/>
       </p>
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col w-full gap-2">
        <CompanyProfileHeading />
         <MaskGroupImg />
+        <Msg />
        </div>
       </div>
-        
-        <Msg />
       </div>
     </main>
   );

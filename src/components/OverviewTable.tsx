@@ -41,8 +41,9 @@ const items: MenuItem[] = [
 const OverViewTable: React.FC = () => {
 
   return (
-    <div className="bg-white rounded-lg text-[#657372]h-40">
-      <div className=" font-extrabold pl-4 text-lg h-10 ">OverView</div>
+    <div className="bg-white rounded-lg 
+   h-40">
+      <div className=" font-extrabold pl-4 text-lg h-10  text-[#657372] ">OverView</div>
       <hr />
       <div className="w-60 flex flex-col place-items-center text-start  ">
         <Menu
