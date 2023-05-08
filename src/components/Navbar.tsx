@@ -53,7 +53,7 @@ export function MobileMenu({
 }) {
   return (
     <div
-      className={`flex flex-col w-full  h-full  font-Figtree p-2  gap- z-30 fixed top-0 bg-white sm:hidden ${
+      className={`flex flex-col min-w-full w-screen  h-full  font-Figtree p-2  gap- z-30 fixed top-0 bg-white sm:hidden ${
         menu ? "flex" : "hidden"
       }`}
     >

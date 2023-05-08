@@ -26,7 +26,7 @@ export default function Home() {
         <SubHeading />
         <div className="flex flex-col ">
         <Btn />
-        <hr className="w-full mt-[-1px]" />
+        <hr className="w-full sm:mt-[-1px]" />
         </div>
       <div className="flex gap-2 justify-start  w-full">
       <p className="sm:flex hidden h-[50%] 
